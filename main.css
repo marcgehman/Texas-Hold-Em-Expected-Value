@@ -1,0 +1,81 @@
+html {
+    background-color: #121212;
+    color: rgba(255, 255, 255, 0.726);
+}
+
+h1,h2,h3{
+    font-size: 40px;
+}
+
+
+.suit > radio-button{
+    cursor: pointer;
+    margin: 5px;
+}
+.suit > radio-button > img {
+    pointer-events: none;
+}
+
+.suit > radio-button[aria-checked = "true"] > img {
+    outline: 2px solid  rgb(110, 188, 224);
+    outline-offset: 0px;
+}
+
+
+.rank{
+    font-size: 30px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.377);
+}
+
+
+ .rank > radio-button{
+    margin: 5px;
+    padding-left: 5px;
+} 
+
+
+.rank > radio-button[aria-checked = "true"]{
+    outline: 2px solid rgb(110, 188, 224);
+    outline-offset: 2px;
+    color: white;
+}
+
+
+.position {
+    font-size: 30px;
+    cursor: pointer;
+    color:  rgba(255, 255, 255, 0.377);
+}
+.position > radio-button {
+    margin: 5px;
+    padding-left: 5px;
+}
+
+.position > radio-button[aria-checked = "true"]{
+    outline: 2px solid  rgb(110, 188, 224);
+    outline-offset: 2px;
+    color: white;
+}
+
+.card{
+    font-size: 30px;
+}
+
+.expected-value{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.726);
+}
+
+.expected-value[valueState = "negative"]{
+    color: red;
+}
+
+.expected-value[valueState = "positive"]{
+    color: greenyellow;
+}
+
+
+.expected-value[valueState = "none"]{
+    color: rgba(255, 255, 255, 0.726);
+}

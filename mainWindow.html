@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="main.css">
+    <script src="RadioGroup.js"></script>
+    <script src="RadioButton.js"></script>
+    <script src="ExpectedValueEstimator.js"></script>
+    <title>Quick N' Dirty Expected Value</title>
+</head>
+<body>
+    <expected-value-estimator type = "estomato">
+        <h1>Hole Cards</h1>
+        <p class = "card" id="card1" type = "card"> Card 1: 
+            <radio-group class = "suit" id = "suit1">
+                <radio-button class = 'heart' > <img src="img/heart.svg" width = 40 height = 40 /> </radio-button>
+                <radio-button class = 'club'> <img src="img/club.svg" width = 40 height = 40 /> </radio-button>
+                <radio-button class = 'diamond'> <img src="img/diamond.svg" width = 40 height = 40 /> </radio-button>
+                <radio-button class = 'spade'> <img src="img/spade.svg" width = 40 height = 40 /> </radio-button>
+            </radio-group>
+            <radio-group class = "rank" id = "rank1">
+                <radio-button class = '2'> 2 </radio-button>
+                <radio-button class = '3'> 3 </radio-button>
+                <radio-button class = '4'> 4 </radio-button>
+                <radio-button class = '5'> 5 </radio-button>
+                <radio-button class = '6'> 6 </radio-button>
+                <radio-button class = '7'> 7 </radio-button>
+                <radio-button class = '8'> 8 </radio-button>
+                <radio-button class = '9'> 9 </radio-button>
+                <radio-button class = 'T'> T </radio-button>
+                <radio-button class = 'J'> J </radio-button>
+                <radio-button class = 'Q'> Q </radio-button>
+                <radio-button class = 'K'> K </radio-button>
+                <radio-button class = 'A'> A </radio-button>
+            </radio-group>
+        </p> 
+        <p class = "card" id="card2"> Card 2:   
+            <radio-group class = "suit" id = "suit2">
+                <radio-button class = 'heart' > <img src="img/heart.svg" width = 40 height = 40 /> </radio-button>
+                <radio-button class = 'club'> <img src="img/club.svg" width = 40 height = 40 /> </radio-button>
+                <radio-button class = 'diamond'> <img src="img/diamond.svg" width = 40 height = 40 /> </radio-button>
+                <radio-button class = 'spade'> <img src="img/spade.svg" width = 40 height = 40 /> </radio-button>
+            </radio-group>
+            <radio-group class = "rank" id = "rank2">
+                <radio-button class = '2'> 2 </radio-button>
+                <radio-button class = '3'> 3 </radio-button>
+                <radio-button class = '4'> 4 </radio-button>
+                <radio-button class = '5'> 5 </radio-button>
+                <radio-button class = '6'> 6 </radio-button>
+                <radio-button class = '7'> 7 </radio-button>
+                <radio-button class = '8'> 8 </radio-button>
+                <radio-button class = '9'> 9 </radio-button>
+                <radio-button class = 'T'> T </radio-button>
+                <radio-button class = 'J'> J </radio-button>
+                <radio-button class = 'Q'> Q </radio-button>
+                <radio-button class = 'K'> K </radio-button>
+                <radio-button class = 'A'> A </radio-button>
+            </radio-group>
+        </p>
+
+
+        <h2>Position </h2>
+        <radio-group class = "position" id = "position">
+            <radio-button class = '1'> SB </radio-button>
+            <radio-button class = '2'> BB </radio-button>
+            <radio-button class = '3'> 3 </radio-button>
+            <radio-button class = '4'> 4 </radio-button>
+            <radio-button class = '5'> 5 </radio-button>
+            <radio-button class = '6'> 6 </radio-button>
+            <radio-button class = '7'> 7 </radio-button>
+            <radio-button class = '8'> 8 </radio-button>
+            <radio-button class = '9'> 9 </radio-button>
+            <radio-button class = '10'> D </radio-button>
+        </radio-group>
+        <h3>Expected Value</h3>
+        <label class = "expected-value" id = "expected-value"> N/A </label>
+    <expected-value-estimator>
+</body>
+</html>

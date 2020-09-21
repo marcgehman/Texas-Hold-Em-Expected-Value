@@ -1,0 +1,18 @@
+{
+  "name": "quickndirtyexpectedvalue",
+  "version": "1.0.0",
+  "description": "Poker tool used to display expected value based on hole cards and current table position.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Marc Gehman",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^7.3.3"
+  },
+  "devDependencies": {
+    "electron-packager": "^14.2.0",
+    "electron-react-devtools": "^0.5.3"
+  }
+}
